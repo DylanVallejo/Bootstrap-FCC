@@ -1,7 +1,32 @@
+
+$altura :   250px;
+$backColor:   purple;
+$color:  white;
+$fuente:  50px;
+$margen: 20px;
+    // ,
+    // 
+    // ,
+    // 
+
 .container{
-    height: 250px;
-    background-color: purple;
-    color: white;
-    font-size: 50px;
-    margin: 20px;
+    height: $altura;
+    background-color: $backColor  ;
+    color: $color;
+    font-size: $fuente;
+    margin: $margen;
+}
+.container-fluid{
+    height: $altura;
+    background-color: $backColor  ;
+    color: $color;
+    font-size: $fuente;
+    margin: $margen;
+}
+.container-lg{
+    height: $altura;
+    background-color: $backColor  ;
+    color: $color;
+    font-size: $fuente;
+    margin: $margen;
 }

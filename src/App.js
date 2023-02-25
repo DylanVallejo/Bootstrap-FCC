@@ -5,9 +5,17 @@ import './App.scss';
 
 function App() {
   return (
-    <div className="container">
-      .container
-    </div>
+    <>
+      <div className="container">
+        .container
+      </div>
+      <div className="container-fluid">
+        .container
+      </div>
+      <div className="container-lg">
+        .container
+      </div>
+    </>
   );
 }
 
