@@ -1,32 +1,7 @@
 
 $altura :   250px;
 $backColor:   purple;
+$seconBakcolor: orange;
 $color:  white;
 $fuente:  50px;
 $margen: 20px;
-    // ,
-    // 
-    // ,
-    // 
-
-.container{
-    height: $altura;
-    background-color: $backColor  ;
-    color: $color;
-    font-size: $fuente;
-    margin: $margen;
-}
-.container-fluid{
-    height: $altura;
-    background-color: $backColor  ;
-    color: $color;
-    font-size: $fuente;
-    margin: $margen;
-}
-.container-lg{
-    height: $altura;
-    background-color: $backColor  ;
-    color: $color;
-    font-size: $fuente;
-    margin: $margen;
-}

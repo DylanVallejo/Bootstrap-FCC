@@ -1,21 +1,16 @@
 
 // import { BrowserRouter,Route,Routes } from 'react-router-dom';
+
 import './App.scss';
+// import Header from './components/header/Header';
+// import Header from './components/header/Header'
 
 
 function App() {
   return (
-    <>
-      <div className="container">
-        .container
-      </div>
-      <div className="container-fluid">
-        .container
-      </div>
-      <div className="container-lg">
-        .container
-      </div>
-    </>
+    <div className="container text-center">
+
+    </div>
   );
 }
 

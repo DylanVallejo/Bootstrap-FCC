@@ -1,0 +1,67 @@
+// *{
+//     scroll-margin-top: 100px;
+//     scroll-behavior: smooth;
+// }
+.headerContainer{
+    display: flex;
+    gap: 10px; 
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(25, 25, 25);
+    color: rgb(255, 255, 255);
+    position: fixed; 
+    top: 0;
+    transition: top 0.2s ease-in-out;
+    width: 100%;
+}
+.imgLogo{
+    height: 80px;
+    width: 80px;
+    margin-left: 40px;
+    padding: 0%;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    border-radius: 50%;
+    box-shadow:
+    0 0 2px #fff,
+    0 0 5px #fff,
+    0 0 10px #38ff13,
+    0 0 40px #38ff13;
+}
+.headerDevName{
+    overflow: fit-content;
+}
+.headerContainer a{
+    color: #fff;
+    text-decoration: none;
+    height: fit-content;
+    padding: 10px;
+}
+.referencesList>ul>li{
+    display: inline-flex;
+    list-style: none;
+    margin: 10px;
+    padding: 20px ;
+    font-size: 1.05em;
+    color: white;
+    transition: color white;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+}
+.referencesList>ul>li:hover{
+    text-decoration: none;
+    color: #52d053;
+    font-size: 1.5em;
+    text-shadow:
+    0 0 2px #38ff13,
+    0 0 5px ;
+    transition: color #52d053;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+}  
