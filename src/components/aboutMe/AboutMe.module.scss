@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&family=Shantell+Sans&display=swap');
+
+
+.seccionOscura{
+    color: white ;
+    background-color: #1b1b32;
+}
+.sobreMi{
+    height: 500px;
+    padding: 10px;
+}
+.sobreMi .contenedor{
+    max-width: 600px;
+    text-align: center;
+}
+.seccionTitulo{
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Shantell Sans', cursive;
+
+}
+.seccionTexto {
+    font-size: 1.2rem;
+    font-family: 'Mynerve', cursive;
+}

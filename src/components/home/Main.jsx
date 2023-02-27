@@ -14,7 +14,7 @@ function Main() {
         </h2>
       </div>
       <div className={` ${styles.heroInferior }`}>
-        <img className={`${styles.heroInferiorImagen} img-fluid`} src='' alt='React , HTML CSS, JavaScript' />
+        <img className={`${styles.heroInferiorImagen} img-fluid`} src={require('../resources/all-technologys.png')} alt='React , HTML CSS, JavaScript' />
       </div>
     </section>
   )
