@@ -35,7 +35,7 @@
     text-align: center;
 }
 .overlay p{
-    font-size: 25px;
+    font-size: 15px;
     font-weight: bold;
     margin-bottom: 0;
     
@@ -49,7 +49,26 @@
 .proyecto:hover .overlay {
     opacity: 1;
 }
-// .
+.overlay .iconosContenedores {
+    display: flex;
+}
+
+//corregir esta seleccion
+// .overlay svg {
+//     color: black;
+//     font-size: 60px;
+//     margin: 10px;
+// }
+
+
+.overlay .svgLogo{
+    color: black;
+    // font-size: 60px;
+    margin: 10px;
+    height: 60px;
+}
+
+
 .seccionClara{
     color: black;
     background-color: white;
