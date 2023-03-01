@@ -94,23 +94,22 @@
     font-family: 'Mynerve', cursive;
 }
 
+.btnInfo{
+    font-family: 'Shantell Sans', cursive;
+    
+    font-size: 1.1rem;
+    margin: 20px;
+    font-weight: bold;
+    
+}
+
 @media screen and (max-width: 400px) {
     .overlay p{
         font-size: 8px;
     }
     .overlay .svgLogo{
         color: black;
-        // font-size: 60px;
         margin: 5px;
         height: 15px;
-        // justify-content: center;
-        // align-items: center;
-        // text-align: center;
     }
 }
-
-// @media screen and (min-width: 700px) {
-//     .heroInferiorImagen{
-//         max-width: 600px;
-//     }
-// }

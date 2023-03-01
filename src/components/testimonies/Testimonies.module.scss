@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&family=Shantell+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+
+.testimonios {
+    padding: 40px 40px 80px 40px;
+}
+
+.testimonios .carousel {
+    max-width: 800px;
+}
+.carouselItem {
+    height: 500px;
+}
+.seccionTitulo  {
+    font-family: 'Shantell Sans', cursive;
+    color: black;
+}
+
+.carouselItem .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.testimonioImagen{
+    height: 150px;
+    width: 150px;
+    margin: 10px 10px 20px 10px ;
+}
+.testimonioTexto{
+    max-width: 70%;
+    font-size: 20px;
+    text-align: center;
+    // font-family: 'Mynerve', cursive;
+    font-family: 'Share Tech Mono', monospace;
+    // font-weight: 700;
+    
+}
+.testimonioInfo{
+    font-family: 'Shantell Sans', cursive;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.testimonioInfo p{
+    margin: 0;
+}
+.testimonioInfo .cliente{
+    font-size: 1.2rem;
+
+}
+.testimonioInfo .cargo{
+    font-size: 0.9rem;
+    color: #656060;
+
+}
+.seccionDescripcion{
+    font-family: 'Shantell Sans', cursive;
+    
+}
+
+
+@media screen and (max-width:800px){
+    .testimonioImagen{
+        height: 100px;
+        width: 100px;
+    }
+    .testimonioTexto{
+        font-size: 15px;
+    }
+}

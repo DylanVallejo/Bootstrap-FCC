@@ -1,21 +1,10 @@
-// *{
-//     scroll-margin-top: 100px;
-//     scroll-behavior: smooth;
-// }
-// .headerContainer{
-//     display: flex;
-//     gap: 10px; 
-//     justify-content: space-between;
-//     align-items: center;
-//     height: 100px;
-//     width: 100%;
-//     background-color: rgb(25, 25, 25);
-//     color: rgb(255, 255, 255);
-//     position: fixed; 
-//     top: 0;
-//     transition: top 0.2s ease-in-out;
-//     width: 100%;
-// }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&family=Shantell+Sans&display=swap');
+
+
 .navbar{
     padding: 2rem;
     background-color: #f5f6f7;
@@ -25,6 +14,15 @@
     justify-content: space-between;
     
 }
+.navbarCollapse a{
+    font-family: 'Shantell Sans', cursive;
+    font-size: 1.5rem;
+
+    
+}
+
+// font-family: 'Shantell Sans', cursive;
+
 .imgLogo{
     height: 70px;
     width: 70px;
@@ -45,40 +43,9 @@
     .navbarBrand{
         display:none;
     }
+    .navbarCollapse a{
+        // font-family: 'Shantell Sans', cursive;
+        font-size: 1rem;   
+    }
     
 }
-// .headerDevName{
-//     overflow: fit-content;
-// }
-// .headerContainer a{
-//     color: #fff;
-//     text-decoration: none;
-//     height: fit-content;
-//     padding: 10px;
-// }
-// .referencesList>ul>li{
-//     display: inline-flex;
-//     list-style: none;
-//     margin: 10px;
-//     padding: 20px ;
-//     font-size: 1.05em;
-//     color: white;
-//     transition: color white;
-//     -webkit-transition: all 0.2s ease-out;
-//     -moz-transition: all 0.2s ease;
-//     -o-transition: all 0.2s ease;
-//     -ms-transition: all 0.2s ease;
-// }
-// .referencesList>ul>li:hover{
-//     text-decoration: none;
-//     color: #52d053;
-//     font-size: 1.5em;
-//     text-shadow:
-//     0 0 2px #38ff13,
-//     0 0 5px ;
-//     transition: color #52d053;
-//     -webkit-transition: all 0.2s ease;
-//     -moz-transition: all 0.2s ease;
-//     -o-transition: all 0.2s ease;
-//     -ms-transition: all 0.2s ease;
-// }  
